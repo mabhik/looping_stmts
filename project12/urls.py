@@ -19,5 +19,6 @@ from app.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('forloop/',forloop,name='forloop')
+    path('forloop/',forloop,name='forloop'),
+    path('loop/',loop,name='loop')
 ]
